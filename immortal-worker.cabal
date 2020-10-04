@@ -5,14 +5,14 @@ description:
   The package provides means for common pattern in web development in Haskell.
   When you need a thread that makes some task in a loop with sleeping between
   iterations you don't wan't it to die from some occasional exception.
-
+  .
   So, the package contains:
-
-  * Helper to create non-dying labeled threads with logging of occured exceptions.
-  Only synchronous exceptions are considered as safe for restoring from. Delay is
-  added between respawns of worker.
-
-  * Isolation helpers for subactions that should not interfere with each other.
+  .
+    * Helper to create non-dying labeled threads with logging of occured exceptions.
+      Only synchronous exceptions are considered as safe for restoring from. Delay is
+      added between respawns of worker.
+  .
+    * Isolation helpers for subactions that should not interfere with each other.
 
 build-type:          Simple
 cabal-version:       >=1.10
