@@ -9,7 +9,7 @@ maintainer:          Anton Gushcha <ncrashed@protonmail.com>
 category:            Concurrency
 extra-source-files:
     README.md
-    changelog.md
+    CHANGELOG.md
 
 library
   hs-source-dirs:      src
